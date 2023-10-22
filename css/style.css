@@ -92,7 +92,7 @@
  }
 
  .banner_text a {
-    margin-top: 52px;
+     margin-top: 52px;
      text-transform: uppercase;
      font-size: 14px;
      font-weight: 800;
@@ -106,17 +106,269 @@
 
  /* BANNER PART END */
 
+ /* SERVICE PART START  */
+ #service_part {
+     padding-top: 80px;
+     padding-bottom: 80px;
+ }
+
+ .service_item i {
+     font-size: 50px;
+     transition: .4s;
+ }
+
+ .service_item h3 {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+     color: #555555;
+     padding-top: 30px;
+     padding-bottom: 20px;
+     transition: .4s;
+ }
+
+ .service_item p {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+     font-size: 14px;
+     color:black;
+     line-height: 24px;
+     position: relative;
+     transition: .4s;
+
+ }
+
+ .service_item p::after {
+     position: absolute;
+     height: 3px;
+     width: 0px;
+     background: #e0d6c5;
+     bottom: -30px;
+     left: 50%;
+     content: '';
+     transform: translateX(-50%);
+     transition: .4s;
+ }
+
+ .service_item:hover i {
+     color: #c7b299;
+ }
+
+ .service_item:hover h3 {
+     color: #c7b299;
+ }
+
+ .service_item:hover p::after {
+     color: #c7b299;
+     width: 70px;
+ }
+
+ /* SERVICE PART END */
+
+ /* Portfolio Part START   */
+ #portfolio_part {
+     padding-top: 80px;
+     background: #fbfaf8;
+ }
+
+ .portfolio_text h3 {
+     font-size: 30px;
+     font-weight: 600;
+     font-family: 'Raleway', sans-serif;
+     color: #555555;
+     padding-bottom: 25px;
+ }
+
+ .portfolio_text p {
+     font-size: 16px;
+     font-weight: 300;
+     font-family: 'Montserrat', sans-serif;
+     color: #8c8c8c;
+     line-height: 28px;
+     padding: 0 263px;
+ }
+
+ .portfolio_img {
+     padding-top: 40px;
+ }
+
+ .portfolio_img img{
+     width: 100%; 
+ }
+
+ /* Portfolio Part END   */
+
+ /* Purchase Now PART START  */
+ #Purchase_now_part {
+     padding: 50px 0px;
+     background: linear-gradient(to right, #251d1a, #4d3326);
+ }
+
+ .Purchase_left h3 {
+     font-size: 28px;
+     font-weight: 400;
+     font-family: 'Raleway', sans-serif;
+     color:#ffffff;
+     padding-bottom: 13px;
+ }
+ .Purchase_left p {
+     font-size: 18px;
+     font-weight: 300;
+     font-family: 'Montserrat', sans-serif;
+     color:#615855;
+ }
+ .Purchase_left span{
+    color: #726456;
+ }
+ .purchase_btn a{
+    font-size: 14px;
+     font-weight: 900;
+     font-family: 'Raleway', sans-serif;
+     color: #251d1a;
+     text-transform: uppercase;
+     font-family: 'Raleway', sans-serif;
+ }
+ .purchase_btn{
+    padding: 19px 28px 17px 28px;
+    background: #998675;
+    border-radius: 5px;
+    border-bottom: 3px solid #736357;
+    font-family: 'Raleway', sans-serif;
+ }
+ .purchase_btn:hover a{
+    color: #fff;
+ }
+
+ /* Purchase Now PART END */
+ /* project all PART END */
+ 
+ #project_all{
+     padding: 80px 0;
+ }
+ .project_text h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: 30px;
+    color: #8c8c8c;
+ }
+ .project_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: 14px;
+    color: #8c8c8c;
+    padding: 20px 40px 30px;
+    line-height: 28px;
+ }
+ .project_menu button{
+      padding: 10px 17px ;
+      background: transparent;
+      border: 1px solid #ebebeb;
+      border-radius: 5px;
+      color: #8c8c8c;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-style: 14px;
+      transition: .4s;
+      margin-right: 10px;
+ }
+ .project_menu button:hover{
+    background: #998675;
+    border: 1px solid #998675;
+    color: #fff;
+    margin-right: 20px; 
+    margin-left: 20px; 
+
+
+ }
+ .project_img{
+    position: relative;
+ }
+ .project_img img{
+    width: 100%;
+ }
+ .project_img_overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.631);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    z-index: 0;
+ }
+ .project_img_shape{
+    height: 40px;
+    width: 40px;
+    bottom: -20px;
+    left: 45px;
+    transform: rotate(45deg);
+    background: #fbfaf8;
+    position: absolute;
+    transition: .4s;
+    
+
+ }
+ .project_item_text{
+    background: #fbfaf8;
+    padding: 30px;
+    transition: .4s;
+   
+    
+ }
+ .project_item_text h3{
+    color: #cab79f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 15px;
+ }
+ .project_item_text p{
+    color: #d1d1d1;
+    font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+
+ }
+ 
+ .project_img_overly_icon {
+	padding: 10;
+	top: 50%;
+	left: 45%;
+	color: #cab79f;
+	font-size: 40px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+	transition: .4s;
+}
+.project_img_overly_icon i{
+    padding-left: 20px;
+}
+
+
+ .project_item:hover .project_img_overly{
+    opacity: 1;
+    visibility: visible;
+ }
+ .project_item:hover .project_item_text {
+   background: #362f2d;
+ }
+ .project_item:hover .project_img_shape{
+    background: #362f2d;
+ }
+ 
+ .project_item:hover .project_img_overly_icon i{
+    color:#fff;
+ }
+ 
+ 
+
+
+/* project all PART END */
 
 
 
-
-
- /* HEADER PART START  */
-
- /* HEADER PART END */
- /* HEADER PART START  */
-
- /* HEADER PART END */
  /* HEADER PART START  */
 
  /* HEADER PART END */
