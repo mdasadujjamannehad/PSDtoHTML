@@ -1,0 +1,108 @@
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {  }
+
+  /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* HEADER PART START  */
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-nav {
+        background:black;
+        text-align: center;
+        border-radius: 10px;
+    }
+    /* HEADER PART END */
+    /* BANNER PART START */
+    .banner_overlay{
+        padding: 140px 0;
+    }
+    .banner_text h3 {
+        line-height: 33px;
+        font-size: 23px;
+    }
+    .banner_text h1 {
+        font-size: 41px;
+        
+        padding-top: 25px;
+        padding-bottom: 19px;
+        line-height: 47px;
+    }
+    .banner_text p {
+        font-size: 11px;
+        line-height: 18px;
+        padding: 0px 10px;
+    }
+    /* BANNER PART END */
+    /* ...............  */
+    .service_item{
+        margin-bottom: 55px;
+    }
+    #service_part {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    /* ..............  */
+
+    #portfolio_part {
+        padding-top: 50px;
+       
+    }
+    .portfolio_text h3 {
+        font-size: 33px;
+        line-height: 31px;
+    }
+    .portfolio_text p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0px 0px;
+    }
+    /* ...............  */
+    #Purchase_now_part {
+        padding: 52px 0px;
+       
+    }
+    .Purchase_left h3 {
+        
+        padding:24px 0;
+        text-align: center;
+        padding-bottom: 40px;
+
+    }
+    .Purchase_left p {
+        font-size: 17px;
+        
+        line-height: 23px;
+        text-align: center;
+        padding-bottom: 51px;
+    }
+    /* ...............  */
+    #project_all {
+        padding: 56px 0;
+    }
+    .project_text p {
+        
+        padding: 20px 0;
+        line-height: 21px;
+    }
+    .project_text h3 {
+        font-size: 32px;
+    }
+    .project_menu button {
+        padding: 1px 7px;
+        font-size: 14px;
+         margin-right: 0px;
+    }
+
+    
+ }

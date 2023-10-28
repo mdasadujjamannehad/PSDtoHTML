@@ -38,6 +38,19 @@
      left: 0;
      width: 100%;
  }
+ .sticky_menu{
+    background:black;
+    animation: menus 1s;
+    z-index: 2; 
+ }
+ @keyframes menus {   
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+ }
 
  .nav-link {
 
